@@ -2,7 +2,7 @@ services:
   vprodb:
     build: 
       context: ./Docker-files/db
-    image: vprocontainers/vprofiledb
+    image: vprocontainers/vpdddrofiledb
     container_name: vprodb
     ports:
       - "3306:3306"
