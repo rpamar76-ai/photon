@@ -1,4 +1,4 @@
-- name: Common tool setup on all the servers
+- name:tool setup on all the servers
   hosts: appsrvgrp
   become: yes
   vars:

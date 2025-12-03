@@ -24,7 +24,7 @@ pipeline {
             }
             post {
                 success {
-                    echo 'Now Archiving...'
+                    echo 'Now Archived..'
                     archiveArtifacts artifacts: '**/target/*.war'
                 }
             }
@@ -48,7 +48,7 @@ pipeline {
             }
             post {
                 success {
-                    echo 'Generated Analysis Result'
+                    echo 'Generated Result'
                 }
             }
         }
