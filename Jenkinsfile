@@ -5,7 +5,7 @@ pipeline {
 	tools {
 	jdk "JDK17"	
         maven "MAVEN3.9  "
- #### test for commit for UI     }
+ #### test for commit for UI    iiaiaiai   }
 	
     environment {
         NEXUS_VERSION = "nexus3"

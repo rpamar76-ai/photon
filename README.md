@@ -5,7 +5,7 @@
 - MySQL 8
 
 # Technologies 
-- Spring MVC
+- Spring MVCdddddd
 - Spring Security
 - Spring Data JPA
 - Maven
